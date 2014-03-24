@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        style="@style/BlockCorner"
+        android:orientation="vertical" >
+
+        <!-- listview begin -->
+
+        <com.nyist.grid.view.MyListView
+            android:id="@+id/lvNotice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:choiceMode="singleChoice"
+            android:divider="@drawable/divider_img"
+            android:dividerHeight="@dimen/block_content_select_account_divider_height"
+            android:fastScrollEnabled="true"
+            android:listSelector="#00000000"
+            android:scrollbars="none" />
+        <!-- listview end -->
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="title_bar_left_btn_font_color">#FFFFFF</color>
+    <color name="title_bar_right_btn_font_color">#FFFFFF</color>
+    <color name="title_bar_center_text_font_color">#FFFFFF</color>
+    <color name="black">#ff000000</color>
+    
+    <!-- Notice, item文字 -->
+    <color name="block_content_select_content_font_color">#598da2</color>
+</resources>

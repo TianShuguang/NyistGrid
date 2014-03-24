@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/NoticeItem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@null"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/ivMail"
+        style="@style/NoticeItemImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/bank_bulletin_mail_close" />
+
+    <TextView
+        android:id="@+id/tvNoticeTitle"
+        style="@style/NoticeItemContent"
+        android:layout_alignTop="@+id/ivMail"
+        android:layout_toRightOf="@+id/ivMail"
+        android:singleLine="false"
+        android:textSize="@dimen/bank_bulletin_list_view_item_tvInfoTitle_size" />
+
+    <TextView
+        android:id="@+id/tvNoticeDate"
+        style="@style/NoticeItemContent"
+        android:layout_alignLeft="@+id/tvNoticeTitle"
+        android:layout_below="@+id/tvNoticeTitle"
+        android:textSize="@dimen/bank_bulletin_list_view_item_tvInfoContent_size" />
+    
+    <TextView
+        android:id="@+id/tvNoticePerson"
+        style="@style/NoticeItemContent"
+        android:layout_alignRight="@+id/tvNoticeTitle"
+        android:layout_below="@+id/tvNoticeTitle"
+        android:textSize="@dimen/bank_bulletin_list_view_item_tvInfoContent_size" />
+
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/bank_bulletin_goto_arrow_normal_select" />
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<style name="BlockCornerCommon">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/block_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/block_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/block_margin_top</item>
+        <item name="android:background">@drawable/bg_coner_common</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+	<style name="BlockCorner" parent="BlockCornerCommon">
+        <item name="android:paddingTop">@dimen/block_padding_top</item>
+        <item name="android:paddingBottom">@dimen/block_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/block_padding_left</item>
+        <item name="android:paddingRight">@dimen/block_padding_right</item>
+    </style>
+	
+	<!-- 最顶层 ScrollView -->
+    <style name="TopLevelScrollView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+    <!-- 最顶层 linerlayout -->
+    <style name="TopLevelLinerLayoutInScrollview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingBottom">@dimen/top_level_linerlayout_padding_bottom</item>
+        <item name="android:background">@null</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="AboutActivityImg">
+        <item name="android:paddingTop">@dimen/about_activity_img_padding_top</item>
+        <item name="android:paddingBottom">@dimen/about_activity_img_padding_bottom</item>
+    </style>
+    
+    <!-- 公告 item -->
+    <style name="NoticeItem">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/block_content_select_item_padding_top</item>
+        <item name="android:paddingBottom">@dimen/block_content_select_item_padding_bottom</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    
+     <!-- 公告 image -->
+    <style name="NoticeItemImage">
+        <item name="android:layout_width">@dimen/block_content_select_image_width</item>
+        <item name="android:layout_height">@dimen/block_content_select_image_height</item>
+        <item name="android:layout_marginRight">@dimen/block_content_select_image_margin_right</item>
+    </style>
+    
+    <!-- 公告, item文字 -->
+    <style name="NoticeItemContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textSize">@dimen/block_content_select_content_font_size</item>
+        <item name="android:textColor">@color/block_content_select_content_font_color</item>
+    </style>
+    
+</resources>

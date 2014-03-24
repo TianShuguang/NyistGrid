@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_layout"
+    style="@style/TopLevelScrollView" >
+
+    <LinearLayout style="@style/TopLevelLinerLayoutInScrollview" >
+
+        <LinearLayout
+            style="@style/BlockCorner"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imgFirst"
+                style="@style/AboutActivityImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvFirst"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/about_activity_tvSecond_line_spacing_extra" />
+
+            <ImageView
+                android:id="@+id/imgSecond"
+                style="@style/AboutActivityImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvSecond"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/about_activity_tvSecond_line_spacing_extra" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

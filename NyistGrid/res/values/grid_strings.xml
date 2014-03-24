@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--主页 -->
+    <string name="main_notice">公告中心</string>
+    <string name="main_massage">消息日志</string>
+	<string name="main_list">课题中心</string>
+    <string name="main_mine">个人中心</string>
+    <string name="main_advise">反馈建议</string>
+    <string name="main_about">关于我们</string>
+    
+    <!--日志 -->
+    <string name="message_my">我的日志</string>
+    <string name="message_teacher">群消息</string>
+    <string name="message_help">帮助</string>
+    
+    <!--课题 -->
+    <string name="list_list">课题列表</string>
+    <string name="list_my">我的课题</string>
+    <string name="list_search">搜索课题</string>
+    <string name="list_help">帮助</string>
+    
+    <!--个人 -->
+    <string name="mine_progre">我的进度</string>
+    <string name="mine_message">个人资料</string>
+    <string name="mine_teacher">导师资料</string>
+    <string name="mine_help">帮助</string>
+</resources>

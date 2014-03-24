@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:background="@drawable/title_bar_bg"
+    android:gravity="center_vertical"  >
+
+    <Button
+        android:id="@+id/btn_left"
+        android:layout_width="@dimen/title_bar_left_btn_width"
+        android:layout_height="@dimen/title_bar_left_btn_height"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/title_bar_left_btn_margin_left"
+        android:background="@drawable/btn_back_select"
+        android:text="返回"
+        android:textColor="@color/title_bar_left_btn_font_color"
+        android:textSize="@dimen/title_bar_left_btn_font_size" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/btn_right"
+        android:layout_toRightOf="@+id/btn_left"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="@dimen/title_bar_center_image_width"
+            android:layout_height="@dimen/title_bar_center_image_height"
+            android:layout_marginRight="@dimen/title_bar_center_image_margin_right"
+            android:background="@drawable/logo"
+            android:contentDescription="@string/app_name" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="取消"
+            android:textColor="@color/title_bar_center_text_font_color"
+            android:textSize="@dimen/title_bar_center_title_font_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_right"
+        android:layout_width="@dimen/title_bar_right_btn_width"
+        android:layout_height="@dimen/title_bar_right_btn_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/title_bar_right_btn_margin_right"
+        android:background="@drawable/btn_right_select"
+        android:text="主页"
+        android:textColor="@color/title_bar_right_btn_font_color"
+        android:textSize="@dimen/title_bar_right_btn_font_size" />
+
+</RelativeLayout>

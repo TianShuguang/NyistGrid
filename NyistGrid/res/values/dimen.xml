@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- title bar begin -->
+    <dimen name="title_bar_height">44.0000dp</dimen>
+    <!-- 左button -->
+    <dimen name="title_bar_left_btn_font_size">12sp</dimen>
+    <dimen name="title_bar_left_btn_margin_left">4.0000dp</dimen>
+    <dimen name="title_bar_left_btn_width">51.3333dp</dimen>
+    <dimen name="title_bar_left_btn_height">30.6666dp</dimen>
+    <!-- 右button -->
+    <dimen name="title_bar_right_btn_font_size">12sp</dimen>
+    <dimen name="title_bar_right_btn_margin_right">4.0000dp</dimen>
+    <dimen name="title_bar_right_btn_width">61.3333dp</dimen>
+    <dimen name="title_bar_right_btn_height">30.6666dp</dimen>
+    
+    <!-- 中间 -->
+    <dimen name="title_bar_center_title_font_size">16sp</dimen>
+    <dimen name="title_bar_center_image_width">20.0000dp</dimen>
+    <dimen name="title_bar_center_image_height">20.0000dp</dimen>
+    <dimen name="title_bar_center_image_margin_right">10.0000dp</dimen>
+    
+    <!-- title bar end -->
+    
+    <!-- NineGridItemView  Hight begin -->
+    <dimen name="nine_grid_item_icon_hight">112px</dimen>
+    <dimen name="nine_grid_item_icon_width">112px</dimen>
+    <!-- NineGridItemView  Hight end -->
+    
+     <!-- GridView Item Hight begin -->
+     <dimen name="gridview_item_height">200dp</dimen>
+     <dimen name="gridview_margin">8dp</dimen>
+     <dimen name="gridview_icon_hight">80dp</dimen>
+     <dimen name="gridview_deta_hight">5dp</dimen>
+    <!-- GridView Item Hight end -->
+    
+    <!-- base_grid_row begin -->
+    <dimen name="base_grid_row_layout_width">80dp</dimen>
+    <dimen name="base_grid_row_text_layout_height">40dp</dimen>
+    <!-- base_grid_row end -->
+    
+    <!-- 内容块 ,外边框  -->
+	<dimen name="block_margin_top">10.0000dp</dimen>
+	<dimen name="block_margin_left">9.3333dp</dimen>
+	<dimen name="block_margin_right">9.3333dp</dimen>
+	
+	<dimen name="block_padding_top">4.0000dp</dimen>
+	<dimen name="block_padding_bottom">4.0000dp</dimen>
+	<dimen name="block_padding_left">9.3333dp</dimen>
+	<dimen name="block_padding_right">9.3333dp</dimen>
+    
+	<!-- 最外层LinerLayout 的 -->
+    <dimen name="top_level_linerlayout_padding_bottom">13.3333dp</dimen>
+	
+    <!-- AboutActivity begin -->
+    <dimen name="about_activity_tvSecond_line_spacing_extra">5sp</dimen>
+    <dimen name="about_activity_img_padding_top">10dp</dimen>
+	<dimen name="about_activity_img_padding_bottom">10dp</dimen>
+    <!-- AboutActivity end -->
+    <!-- 关于我们的图片 -->
+    <!-- MyListView 的分割线高度-->
+	<dimen name="block_content_select_account_divider_height">0px</dimen>
+	
+
+	<!-- 公告 Notice begin -->
+    <dimen name="bank_bulletin_arrow_layout_marginTop">17dp</dimen>
+    <dimen name="bank_bulletin_arrow_layout_marginBottom">17dp</dimen>
+    
+    <dimen name="bank_bulletin_list_view_item_tvInfoTitle_size">16sp</dimen>
+    <dimen name="bank_bulletin_list_view_item_tvInfoContent_size">10sp</dimen>
+    
+    <dimen name="block_content_select_item_padding_top">10.0000dp</dimen>
+    <dimen name="block_content_select_item_padding_bottom">10.0000dp</dimen>
+    
+    <dimen name="block_content_select_image_width">22.6666dp</dimen>
+	<dimen name="block_content_select_image_height">22.6666dp</dimen>
+	<dimen name="block_content_select_image_margin_right">8.0000dp</dimen>
+	
+	<dimen name="block_content_select_content_font_size">16sp</dimen>
+    <!-- 公告 Notice end -->
+</resources>
